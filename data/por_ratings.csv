@@ -1,0 +1,93 @@
+S.No,Council / Body,Position of Responsibility,Tier,Selection Mode,Rating (1-10),Rationale
+1,Students' Senate,"Chairperson, Students' Senate",Apex,Elected (by Senate),10,Presides over central legislative body; ex-officio institute Senate member
+2,Students' Senate,"President, Students' Gymkhana (Executive of Senate)",Apex,Elected (General Body),10,Chief Executive of entire Gymkhana
+3,Students' Senate,General Secretaries (Executives of Senate),Apex,Elected (General Body),10,"Council chairpersons, ex-officio Senate executives"
+4,Students' Senate,Senator,Senior,Elected (by batch),7,"Represents ~150 students, central policy-making role"
+5,Students' Senate,Parliamentarian,Senior,Elected (by Senate),7,"Final constitutional interpreter, RPC convener"
+6,Students' Senate,Finance Convener,Senior,Elected (by Senate),7,"Oversees Gymkhana-wide finances, ex-officio on all councils"
+7,Students' Senate,Standing Council Convener (CoSHA/CoFA/UG-SAC/PG-SAC),Mid,Elected (by General Body),6,"Represents council in Senate, may take up executive work"
+8,Students' Senate,Ad hoc Subcommittee Convener,Mid,Appointed (by Senate),5,"Investigates specific matters, reports to Senate"
+9,Students' Senate,Senate Nominee to Academic Senate Committee (SSAC/SUGC/SPGC/SLC/SEPC/SCDMC/SSPC),Mid,Nominated (by Senate),5,Student voice on institute academic policy bodies
+10,Students' Senate,Senate Nominee to DUGC/DPGC,Mid,Nominated (by Senate),4,Department-level academic committee representation
+11,Students' Senate,Senate Nominee to Standing Committee (RPC/Finance/Steering/Nominations/CAC),Mid,Nominated (by Senate),4,Bridges Senate and internal committees
+12,Students' Senate,"Chief Secretary, Students' Senate",Mid,Appointed,6,Supervises Senate office secretaries
+13,Students' Senate,"Secretary, Minutes and ATR",Entry,Appointed,3,Maintains meeting minutes
+14,Students' Senate,"Secretary, Media and Publicity (Senate)",Entry,Appointed,3,Senate outreach coordination
+15,President's Office,"Chief Secretary, President's Office",Senior,Appointed,7,"Handles executive proposals, manages President's Office secretaries"
+16,President's Office,Chief President's Nominee,Senior,Appointed,6,"Manages institute committee nominees, student-faculty relations"
+17,President's Office,President's Nominee to Institute Committee,Mid,Nominated,4,Represents student body on institute committees
+18,President's Office,Chief Marketing Officer,Mid,Appointed,5,"Manages sponsorship guidelines, cell funding"
+19,President's Office,"In-Charge, SAC",Mid,Appointed,4,Manages New SAC operations/maintenance
+20,President's Office,Web Secretary (President's Office),Entry,Appointed,3,Manages students.iitk.ac.in domain
+21,President's Office,Secretary/Marketing Officer,Entry,Appointed,2,Assists President's Office position holders
+22,Gymkhana Councils,General Secretary (any Council),Apex,Elected (General Body),10,"Chairperson of a full council, budget/resource authority"
+23,Gymkhana Councils,Associate Head (any Council vertical),Senior,Appointed,7,"Assists GS, coordinates Council Secretaries, owns a vertical"
+24,Gymkhana Councils,Club Coordinator,Mid,Appointed (Senate-ratified),6,Heads a Club (upgraded from Society)
+25,Gymkhana Councils,Society Leader,Mid,Appointed,5,Heads a Society
+26,Gymkhana Councils,Club/Society/Wing Secretary,Entry,Appointed,3,Primary-level functioning support
+27,Gymkhana Councils,Council Secretary,Entry,Appointed,3,"Supports GS/Associate Heads in core functions (media, content, finance)"
+28,Academics & Career Council,"Wing Manager (UG/PG Academics, Career Dev, Research, Int'l Relations)",Senior,Appointed,6,Runs a wing under Associate Head guidance
+29,Academics & Career Council,Academic Departmental Mentor,Entry,Appointed,3,Guides mentees on academic queries
+30,Academics & Career Council,Career Departmental Mentor,Entry,Appointed,3,Guides mentees on career prospects
+31,Games & Sports Council,<Sport> Coordinator,Mid,Appointed,5,Runs workshops/tournaments for a specific sport
+32,Games & Sports Council,<Sport> Secretary,Entry,Appointed,3,Assists Sport Coordinator; standalone if none exists
+33,Games & Sports Council,<Specialized Work> Coordinator,Mid,Appointed,5,"Manages council-central domains (media, content, marketing)"
+34,Science & Technology Council,Manager (Web/Outreach & Connect),Mid,Appointed,5,Manages council website and external outreach/sponsorship
+35,Festivals (Antaragni/Techkriti/Udghosh),Festival Coordinator,Apex,Appointed/Elected,9,"Overall conduct of a flagship institute festival, answerable to Senate"
+36,Festivals,Special Task Force (STF) Member,Senior,Appointed,6,Handles festival emergency situations
+37,Festivals,Head (Events/Finance/Marketing/Media/PR/Security/Show Mgmt/Design/Web),Senior,Appointed,7,"Owns a full vertical of festival organization, Core Team member"
+38,Festivals,Organizer,Mid,Nominated (by Heads),5,Runs a specific event or assists a Head's vertical
+39,Festivals,Senior Executive/Secretary (Festival),Entry,Appointed,3,Assists Heads/Organizers with Junior Executive support
+40,Festivals,Principal Security Officer (PSO),Senior,Appointed,6,Oversees full festival security vertical
+41,Festivals,Girls' Security Officer (GSO),Senior,Appointed,6,Oversees security for female participants
+42,Festivals,Senior Security Officer (SSO),Mid,Appointed,4,Assists PSO/GSO
+43,Festivals,Security Officer (SO),Entry,Appointed,2,Fundamental-level security assistance
+44,Entrepreneurship Cell,Overall Coordinator,Apex,Appointed,8,"Heads E-Cell, runs E-Summit, oversees SIP & investor networking"
+45,Entrepreneurship Cell,Manager (Business Dev/Events/Media/Design/Startup Dev/Marketing/Finance/SIP/Web),Mid,Appointed,5,Manages a specific wing
+46,Entrepreneurship Cell,Secretary,Entry,Appointed,2,Assists Managers/OC
+47,Outreach Cell,Overall Coordinator,Apex,Appointed,8,"Builds institute-alumni-corporate reputation, assists DoRA office"
+48,Outreach Cell,Manager (Alumni Relations/Campus/Creatives),Mid,Appointed,5,Manages a specific wing
+49,Outreach Cell,Secretary (Outreach Cell),Entry,Appointed,2,Assists wing Managers/OC
+50,Community Welfare Cell,Overall Coordinator,Apex,Appointed,8,"Sets CWC working structure, community communication"
+51,Community Welfare Cell,Manager (Vivekananda Samiti/Unmukt/Prakriti/Prayas/Raktarpan),Mid,Appointed,5,Runs a specific welfare initiative wing
+52,Community Welfare Cell,Secretary (CWC),Entry,Appointed,2,Fundamental-level support
+53,Public Policy & Opinion Cell,Overall Coordinator,Apex,Appointed,8,Runs Indian Governance Summit & Policy Conclave
+54,Public Policy & Opinion Cell,Manager (Events/Finance&Marketing/Policy Research/Web/Design),Mid,Appointed,5,Manages a specific wing
+55,Public Policy & Opinion Cell,Secretary (PPOC),Entry,Appointed,2,Assists Managers/OCs
+56,Election Commission,Chief Election Officer,Apex,Appointed,8,Conducts all Gymkhana elections (General/Mid-term/By)
+57,Election Commission,Manager (Logistics/Publicity-UG/Publicity-PG/Auditing&Finance/Web/Design),Mid,Appointed,5,Manages a specific election vertical
+58,Election Commission,Senior Election Officer,Mid,Appointed,4,"Assists CEO, monitors Code of Conduct violations"
+59,Election Commission,Election Officer,Entry,Appointed,2,Assists Senior Election Officers
+60,Election Commission,Student Nominee to GRC/AGRC,Mid,Nominated (by Senate),5,Adjudicates election grievances/appeals
+61,Vox Populi,Chief Editor(s),Apex,Appointed,8,"Heads journalism body, sets editorial standards"
+62,Vox Populi,Editor (Writing&Campus Connect / Design&Comics / Video),Senior,Appointed,6,"Leads a vertical team, part of Editorial Board"
+63,Vox Populi,Assistant Editor,Mid,Appointed,4,Assists Editors with core group support
+64,Vox Populi,Web Executive (Vox Populi),Entry,Appointed,3,Maintains official website
+65,Vox Populi,Core Group Member,Entry,Appointed,2,Flexible support across verticals/projects
+66,Institute SnT Teams (Aerial Robotics/AUV/Humanoid/Motorsports/ERA/VISION),Team Head,Senior,Senate-ratified,7,Leads a technical/non-technical division; institute-level competition representation
+67,Institute SnT Teams,Senior Member (>1 year),Mid,Senate-ratified,4,Actively involved in ongoing/past projects
+68,Institute SnT Teams,Junior Member (<=1 year),Entry,Not Senate-ratified,2,Work ratified directly as technical project
+69,Institute SnT Teams,Project Leader,Mid,Appointed,5,Responsible for team performance in one competition/problem statement
+70,Institute Sports Teams & SPEC,Contingent Leader,Senior,"Ex-officio (GS, GnS) / Nominated",7,"Leads student contingent to competitions (e.g., Inter IIT)"
+71,Institute Sports Teams & SPEC,Deputy Contingent Leader,Mid,Appointed,5,Bridges Contingent Leader and team captains/coaches
+72,Institute Sports Teams & SPEC,Team Captain,Mid,Selected (Coach+GS+SPEC),5,"Handles training sessions, practice matches"
+73,Hall Executive Committee,President (Hall),Senior,Elected (Hall),6,"Represents hall, ensures rule compliance & inter-committee coordination"
+74,Hall Executive Committee,Maintenance Secretary (Hall),Mid,Elected (Hall),4,General hall maintenance issues
+75,Hall Executive Committee,Mess Secretary (Hall),Mid,Elected (Hall),4,"Mess/canteen functioning, menu, bills"
+76,Hall Executive Committee,Media and Culture Secretary (Hall),Mid,Elected (Hall),4,Hall cultural activities & representation
+77,Hall Executive Committee,Finance/Accounts Secretary (Hall),Mid,Elected (Hall),4,"Hall monetary transactions, HEC budget"
+78,Hall Executive Committee,Sports Secretary (Hall),Mid,Elected (Hall),4,"Hall games/sports promotion, intra-hall tournaments"
+79,Hall Executive Committee,Science and Technology Secretary (Hall),Mid,Elected (Hall),4,Hall sci-tech workshops/competitions
+80,Hall Executive Committee,Common Rooms Secretary (Hall),Entry,Elected (Hall),3,Maintains reading/computer/TV rooms
+81,Counselling Service,Coordinator (UG Wing),Senior,Appointed,6,Supervises overall UG Counselling Service functioning
+82,Counselling Service,Operations Core Team Member,Mid,Appointed,4,"Plans Freshmen Orientation, Student Guide selection"
+83,Counselling Service,Academics Core Team Member,Mid,Appointed,4,"Organizes remedial classes, selects Academic Mentors"
+84,Counselling Service,Student Guide,Entry,Appointed,3,Guides freshmen through initial campus transition
+85,Counselling Service,Academic Mentor,Entry,Appointed,3,Provides remedial/one-to-one academic mentoring
+86,Counselling Service,PG Core Team Member,Senior,Appointed,5,Supervises PG wing of Counselling Service
+87,Counselling Service,Orientation Team Member (PG),Entry,Appointed,2,Assists PG freshmen orientation conduction
+88,Students' Placement Office,Overall Placement Coordinator,Apex,Appointed,9,"Facilitates entire placement/internship process, faculty-company liaison"
+89,Students' Placement Office,Assistant Placement Coordinator,Senior,Appointed,6,"Coordinates recruitment stages, manages Company Coordinators/Volunteers"
+90,Students' Placement Office,Department Placement Coordinator,Mid,Appointed,5,"Department-faculty liaison, routes student queries"
+91,Students' Placement Office,Company Coordinator,Mid,Appointed,4,SPO representative to visiting companies
+92,Students' Placement Office,Web Team (SPO),Entry,Appointed,2,Handles SPO web logistics

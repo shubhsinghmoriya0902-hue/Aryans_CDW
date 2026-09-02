@@ -1,0 +1,884 @@
+====================================================================================================
+               IIT KANPUR RESUME PROJECTS & CROSS-DOMAIN KEYWORD TAXONOMY ENGINE                   
+               Detailed Analysis of 10 Batch Resumes, Project Extraction & Scoring Calibration      
+====================================================================================================
+
+OVERVIEW:
+This report analyzes 10 student resumes from the IIT Kanpur internship and placement batch dataset.
+It extracts the Projects section from each candidate's resume, identifies relevant technical and
+methodological keywords, maps them across key hiring domains, provides a comprehensive domain keyword
+valuation hierarchy (with calibrated scores/weights), and outlines strategic adjustments to the scoring system.
+
+====================================================================================================
+SECTION 1: DETAILED PROJECT EXTRACTIONS & KEYWORD PROFILES (10 RESUMES)
+====================================================================================================
+
+[1] CANDIDATE: AARSH JAIN
+--------------------------------------------------------------------------------
+  • Roll Number: 230015
+  • Department: IIT Kanpur
+  • CPI / CGPA: 9.7
+  • Recommended Primary Track: General / SDE
+  • Resume Source File: Aarsh_Jain_230015.pdf
+  • Detected Sections: Header, Education, Achievements, Competitive Programming, Projects, Skills, Coursework, Positions of Responsibility, I, Ii
+
+  --- EXTRACTED PROJECTS & EXPERIENCE TEXT ---
+    Roomble | CS253 Course Project | Prof. Indranil Saha, IIT Kanpur | (cid:135) Jan ’25 - Apr ’25
+    • Built a full-stack web application connecting tenants, flatmates, and landlords for property discovery alongside an 11-member team.
+    • Enabled real-time messaging between users using Socket.io, supporting seamless and interactive communication across the platform.
+    • Developed a responsive front-end using React.js and built a robust backend with Node.js and Express.js, utilizing the MERN stack.
+    • Designed and integrated a matching algorithm to compute compatibility scores using user preferences and comprehensive profile data.
+    Mini-MIPS Processor | CS220 Course Project | Prof. Debapriya Basu Roy, IIT Kanpur | (cid:135) Jan ’25 - Apr ’25
+    • Designed and implemented a Single-Cycled MIPS Processor in Verilog HDL, supporting 30+ instructions from the MIPS ISA.
+    • Implemented key modules such as the Register File, Control Unit, Fetch and Decode and ALU in a non-pipelined architecture.
+    • Successfully executed programs like Insertion Sort, Multiplication, and Floating-Point Subtraction using custom testbenches.
+    • Deployed the processor design on a PYNQ-Z2 FPGA board, thoroughly verifying its functional correctness on hardware.
+    Drowsiness Detection | Brain and Cognitive Science Club | IIT Kanpur | (cid:135) Dec ’23 - Jan ’24
+    • Developed an EEG-based drowsiness detection system to enhance driver safety by monitoring brain activity and assessing alertness.
+    • Applied MNE-Python for preprocessing EEG data, using techniques like bandpass filtering, artifact removal, and signal segmentation.
+    • Utilized morlet frequency-domain analysis to visualize brain activity, generating spectrograms, topographical maps and heatmaps.
+    • Used InterpretableCNN and LOOCV to detect drowsiness patterns from EEG signals, achieving 77% accuracy in classification.
+    Library Management System | CS253 Course Project | Prof. Indranil Saha, IIT Kanpur | (cid:135) Feb ’25 - Mar ’25
+    • Developed a role-based library management system in C++ implementing polymorphism, inheritance, and encapsulation principles.
+    • Developed core library features including book borrowing, reservation system, and overdue fine calculation with admin librarian controls.
+    • Implemented error and exception handling mechanisms to ensure system robustness when processing unexpected inputs and user errors.
+    Auction Design | Stamatics Society | IIT Kanpur May ’25 - July ’25
+    • Analyzed revenue-optimal auction mechanisms via Myerson’s Optimal Auction Theory and explored multi-item theoretical extensions.
+    • Analyzed two-item auction mechanisms using game theory and optimal transport methods to evaluate bidding strategies and distribution-
+    dependent limitations.
+
+  --- RELEVANT EXTRACTED KEYWORDS FOR THIS CANDIDATE'S PROJECTS ---
+    * Software Engineering (SDE): c++, c, python, java, javascript, react, node, mongodb, git, bash
+    * Quantitative Finance & Math: None detected
+    * Management Consulting & Analytics: revenue, framework
+    * Core Engineering & Hardware: ros, eeg, fea
+    * Data Science, ML & AI: cnn, numpy, pandas, matplotlib
+====================================================================================================
+
+[2] CANDIDATE: AARYAN MAHESHWARI
+--------------------------------------------------------------------------------
+  • Roll Number: 230022
+  • Department: IIT Kanpur
+  • CPI / CGPA: 8.8
+  • Recommended Primary Track: General / SDE
+  • Resume Source File: Aaryan_Maheshwari_230022.pdf
+  • Detected Sections: Header, Education, Achievements, Projects, Skills, Relevant Courses *Ongoing, Positions of Responsibility, Extracurricular
+
+  --- EXTRACTED PROJECTS & EXPERIENCE TEXT ---
+    Markoff Graphs and Cryptography | Mathematical Research Intern, SURGE | Mentor: Prof. Santosh Nadimpalli [May-July’25]
+    Objective • Investigating the structure and connectivity of Markoff graphs over F and their cryptographic applications
+    p
+    • Generated solution sets to the equation and built Markoff graphs via Vieta moves, following Bourgain et al.
+    Execution • Used an O ( p) time traversal algorithm by Brown et al. to check graph connectivity across many large primes
+    • Analyzed a Markoff-based hash function by Lauter et al. via expansion and orbit structure of the graphs
+    • Verified full connectivity in Markoff graphs over F in support of the strong approximation conjecture
+    Result p
+    • Demonstrated stable orbit dynamics in Markoff-based hash functions, indicating cryptographic viability
+    Cryptographic Systems and Attacks (cid:135) | CS698G course project | Mentor: Prof. Udaya Parampalli ( Uni. of Melbourne) [May-July’25]
+    • Implemented AES-128 with key expansion in python and performed cryptanalysis on monoalphabetic and affine ciphers
+    • Designed and executed a side-channel attack on AES to recover round keys, demonstrating practical vulnerabilities
+    • Studied RSA, ElGamal, and hash function constructions with a focus on their algebraic structure and implementation
+    Analysing University Rankings (cid:135) | MTH208 course project | Mentor: Prof. Dootika Vats [Sept-Nov’24]
+    • Collaborated in a team of 4 to scrape and clean global GDP and university ranking data using R creating a unified dataset
+    • Engineered meaningful features and performed data transformations to enable meaningful cross-domain analysis
+    • Built an interactive Shiny dashboard to visualize various patterns and co-authored a report analyzing key trends and insights
+    AI Odyssey: Deep Dive into AI Applications (cid:135) | Summer Project | Institute Consulting Group, IIT Kanpur [May-July’24]
+    • Built foundational machine learning models for supervised learning from scratch using NumPy, pandas, and matplotlib
+    • Implemented neural networks and deep learning architectures like CNNs, LSTMs, and an RNN -based baby name generator
+    • Explored transformer models (GPT, BERT) and developed a basic Retrieval-Augmented Generation (RAG) system
+    Quest: Do I Know You? (cid:135) | Takneek | Science and Technology Council, IIT Kanpur [Sept-Oct’24]
+    • Collaborated in a team of 3 to design and implement a custom LLM unlearning pipeline targeting factual removal
+    • Curated and manually annotated a dataset focused on targeted individuals, using it to fine-tune an LLM using QLoRA
+    • Developed an evaluation pipeline to measure forgetting performance and deployed the fine-tuned model on Hugging Face
+    CineBook: Command-Line Movie Ticket System (cid:135) | Self Project [Dec’24]
+    • Built a command-line based ticket booking system, with seat allocation mechanism and customer balance management
+    • Implemented OOP principles in C++ to structure movie schedules and seat reservations for predefined movie listings
+    Forex Arbitrage (cid:135) | Self Project [Jun’25-July’25]
+    • Designed a system to detect and exploit arbitrage opportunities in the foreign exchange market by price discrepancies across
+    • Implemented the Bellman-Ford algorithm to identify negative-weight cycles in real-time currency graphs using cycle caching
+    • Detected over 107 million arbitrage opportunities across a three-month dataset, with sub-25-nanoseconds detection latency
+    i
+
+  --- RELEVANT EXTRACTED KEYWORDS FOR THIS CANDIDATE'S PROJECTS ---
+    * Software Engineering (SDE): c++, c, python, oop, git, bash
+    * Quantitative Finance & Math: cryptography
+    * Management Consulting & Analytics: None detected
+    * Core Engineering & Hardware: ros, fea, matlab, surge
+    * Data Science, ML & AI: machine learning, deep learning, cnn, numpy, pandas, matplotlib
+====================================================================================================
+
+[3] CANDIDATE: ABHINAV SINHA
+--------------------------------------------------------------------------------
+  • Roll Number: 230042
+  • Department: IIT Kanpur
+  • CPI / CGPA: 8.2
+  • Recommended Primary Track: General / SDE
+  • Resume Source File: Abhinav_Sinha_230042.pdf
+  • Detected Sections: Header, Education, Achievements, Projects, Positions of Responsibility, Skills, Coursework, Extracurricular
+
+  --- EXTRACTED PROJECTS & EXPERIENCE TEXT ---
+    Face Frontalisation | Course Project EE655 under Prof. Koteswar Rao J (cid:135) (Apr’25)
+    Objective • Develop a deep learning pipeline to generate frontal face images from profile views for improved face analysis
+    • Used a Conditional GAN with U-Net generator and PatchGAN discriminator for frontal face synthesis
+    • Preprocessed and augmented 114K+ image pairs from the 300W-LP dataset to improve pose diversity
+    Approach • Visualized key facial regions via CAMs and evaluated generalization using LOSO validation on synthesized
+    outputs
+    • Used combined adversarial and L1 reconstruction loss ( λ = 100) on 256 × 256 inputs normalized to [1,1]
+    • Achieved 14.1dB PSNR and 0.45 SSIM, demonstrating identity-preserving and high-quality frontalization
+    Impact
+    • Enables identity-preserving face synthesis for recognition in real-world scenarios like AR and surveillance
+    Multimodal Sentiments Analysis | Winter Project | Google Developer Group(GDG), IIT Kanpur (cid:135) (Dec’24-Jan’25)
+    Objective • To perform sentiment analysis by integrating text, image using a multimodal transformer -based approach
+    • Built a multimodal sentiment classifier using BERT for text and Vision Transformer(ViT) for images
+    • Performed sentiment, humor, and offense classification on Memotion dataset using multimodal training
+    Approach • Employed advanced multimodal fusion techniques to effectively combine textual and visual embeddings
+    • Achieved Macro F1 score with a full pipeline in PyTorch and HuggingFace transformers, preprocessing,
+    training, and evaluation
+    • Fine-tuned DistilBERT for sentiment analysis, with 91.3% precision and 0.91 F1-score on 6k IMDB dataset
+    Impact • Deployed sentiment analysis web app using Streamlit that classifies IMDB reviews as positive or negative
+    • Achieved F1 scores of 0.9722 (Humor), 0.9720 (Sarcasm), 0.9657 (Offensive); and average accuracy: 97.6%
+    Drowsiness Detection | Summer Project | BCS, IIT Kanpur (cid:135) (May’24-Jul’24)
+    Objective • Develop a CNN-based model to classify real-time drowsiness states of (alert vs. drowsy) using EEG signals
+    • Processed an EEG dataset comprising 3000+ samples, each containing 30 channels and 284 data points
+    • Interpretable CNN Model, utilizes depthwise and pointwise convolution for efficient feature extraction
+    Approach • Applied Leave-One-Subject-Out (LOSO) cross-validation to ensure generalization across individuals Samples
+    • Utilised Signal Processing and Independent Component Analysis in order to analyse and preprocess EEG
+    signal data
+    • Enhanced interpretability of black-box CNN models in neuroscience through heatmap -based visual analysis
+    Impact
+    • Achieved an accuracy of 70.2%, which is higher than the conventional baseline methods of 53.40%
+    Application of LLMs | Winter Project | Association of Mechanical Engineering(AME), IIT Kanpur (cid:135) (Dec’24-Jan’25)
+    • Built a system for long-form summarization and German-to-English translation using Large Language Models
+    Objective
+    • Enabled real-time, token-efficient processing for large inputs and multilingual outputs using open-source tools
+    • Chunked 12KB articles into 12 segments using LangChain’s CharacterTextSplitter (size=1000, overlap=200)
+    Approach • Used flag-based logic to dynamically choose between ’stuff’ and ’map-reduce’ summarization chains in LangChain
+    • Fine-tuned MarianMT on 29k train and 1k val/test pairs using Seq2SeqTrainer (fp16, batch size 16)
+    • Delivered summaries in less than 2seconds using time.monotonic() and enabled public access via Stream-
+    Impact lit, pyngrok
+    • Achieved 85% translation accuracy and removed manual post-editing through HuggingFace’s evaluate
+    Lab Simulation | Course Project | Intro. to Electronics | Prof. Imon Mondal (Aug’24 - Nov’24)
+    Objective • To develop practical skills in circuit implementation, instrumentation, and data-driven modeling.
+    • Implemented circuits like Integrator and Differentiator and measured their time and frequency response.
+    Execution • Acquired proficiency in handling electronic devices like Oscilloscope, ICs, Operational Amplifier and BJT
+    • Constructed digital logic circuits like half-adders, carry generators, and 3-bit decoders on a digital test board.
+    Impact • Strengthened practical understanding of electronic systems through hands-on circuit design and testing.
+
+  --- RELEVANT EXTRACTED KEYWORDS FOR THIS CANDIDATE'S PROJECTS ---
+    * Software Engineering (SDE): c++, c, python, git
+    * Quantitative Finance & Math: None detected
+    * Management Consulting & Analytics: cross-validation
+    * Core Engineering & Hardware: ros, signal processing, eeg, independent component analysis, fea
+    * Data Science, ML & AI: deep learning, cnn, pytorch, tensorflow, f1-score, cross-validation, numpy, pandas, matplotlib
+====================================================================================================
+
+[4] CANDIDATE: ADITYA ANAND
+--------------------------------------------------------------------------------
+  • Roll Number: 230065
+  • Department: IIT Kanpur
+  • CPI / CGPA: 6.8
+  • Recommended Primary Track: General / SDE
+  • Resume Source File: Aditya_Anand_230065.pdf
+  • Detected Sections: Header, +91 7061516754, Education, Academic Achievements, Key Projects And Workshops, I, Skills, Coursework, Extra-Curricular And Social Activities, Ii
+
+  --- EXTRACTED PROJECTS & EXPERIENCE TEXT ---
+    [No formal 'Projects' header found; projects present in Experience / Academic Work]
+
+  --- RELEVANT EXTRACTED KEYWORDS FOR THIS CANDIDATE'S PROJECTS ---
+    * Software Engineering (SDE): c++, c, python, git
+    * Quantitative Finance & Math: None detected
+    * Management Consulting & Analytics: None detected
+    * Core Engineering & Hardware: None detected
+    * Data Science, ML & AI: pytorch, tensorflow, arviz, pymc, numpy, pandas, matplotlib
+====================================================================================================
+
+[5] CANDIDATE: ADVAITH G S
+--------------------------------------------------------------------------------
+  • Roll Number: 230084
+  • Department: IIT Kanpur
+  • CPI / CGPA: 8.3
+  • Recommended Primary Track: General / SDE
+  • Resume Source File: Advaith_G_S_230084.pdf
+  • Detected Sections: Header, Education, Achievements, Projects, Skills, E, Coursework, Positions of Responsibility, Social Impact, Extra Curricular Achievements
+
+  --- EXTRACTED PROJECTS & EXPERIENCE TEXT ---
+    Statistical Reinforcement Learning | Prof. Sayak Ray Chowdhury | IIT Kanpur (Mar’25 - Present)
+    Objective • To develop a process-based algorithm to optimize the stochastic bandit problem with continuous arms
+    • Using Bandit Algorithms, Markov Decision Processes, Policy Gradients, and Model-Free Prediction
+    Approach • Studying Algorithms on Finite-Armed Stochastic Bandits like ETC and UCB for deriving regret bounds
+    • Using gaussian process-based algorithms for continuous optimization (GP-Thomson) for conducting simulations
+    Result • Expecting a substantial improvement over 5+ traditional regret optimality bounds from traditional bandits
+    HydroMechanics of FinVision | Google Developers Group | IIT Kanpur | § (Dec’24 - Apr’25)
+    • To develop an options-pricing tool that combines financial models on historical data to generate a portfolio
+    Objective
+    • To develop a comprehensive, and robust dynamic options-pricing tool that trains on image and text data
+    • Achieved avg. returns of 43.36% on LQ45 index using Option Pricing Models (Binomial, Black-Scholes)
+    • Used Markowitz, CAPM, Black Litterman Models to optimize a portfolio for percentage wise allocation
+    • Analyzed 500 S&P companies to find sentiments using a LLM on fundamentals - reports, ratios, & news
+    Approach • Studied Option Pricing Models like Binomial and Black Scholes, to estimate market derivatives prices
+    • Developed pricing models to calculate Call and Put premiums, compared actual vs. theoretical option prices
+    • Analyzed 6 months of historical SPDR S&P 500 ETF data from Yahoo Finance to interpret options trends
+    • Tuned a GPT-3.5 Turbo instance on 25 years’ fundamental data (reports, ratios, news) to analyse a stock
+    • Achieved 85% accuracy in BTCUSD breakout detection using Segment Trees & Portfolio Optimization
+    Result • Used Markowitz, CAPM, Black Litterman Models to optimize a portfolio for percentage wise allocation
+    • Used Segment Trees to analyse stock spans for Trend Confirmation & Breakout Strategies for BTCUSD
+    Astrobot | §
+    Awarded the Verified Discord Community Developer title, given to large bot developers at Discord (Dec’23 - Present)
+    Objective • To develop an instant astronomical and event data retrieval Chatbot for Discord, combining varied sources
+    • Cloud Hosted on Heroku, serving multiple user Astronomical Body/Event data requests asynchronously
+    • A scalable repository of astronomical information - concurrently compiled via multiple APIs and sources
+    • Parses through continuous 17 NASA/ESA Probe Dumps to find relevant information & cache on Mon-
+    goDB
+    • A Discord chatbot actively used in 550+ global servers with 2M+ members, handling 500+ interactions
+    every day
+    Approach • A query-friendly repository of astronomical information - compiled via multiple APIs and sources, built
+    for scalability
+    • Cloud Hosted on Heroku, handles Astronomical Body and Event data requests from multiple users asyn-
+    chronously.
+    • Parses through continuous NASA/ESA Probe Data to find relvant information and caches it for user re-
+    quests.
+    • Qualified for the Verified Discord Community Developer title, only given to large bot developers at Discord.
+    Result • Actively deployed across 550+ global servers, serving 2M+ members, handling 500+ interactions daily
+    NFS Goes Online | Programming Club | IIT Kanpur | § (May’24 - Jul’24)
+    i
+    Objective • To build an asynchronous web-server in Rust and emulate a CRUD-enabled distributed file system in C
+    • Studied Network Protocols, OS Process Control and File Systems to create a NFS based on VSFS
+    • Built asynchronous TCP listeners and implemented HTML error handling to maintain server stability
+    • Via the Linux System API, emulated a full-fledged filesystem, with custom read, write & create functions
+    • Implemented UDP channels, with stateless operations and concurrent multi-user support in the DFS
+    • Studied Network Protocols, OS Process Control and File Systems to create a distributed filesystem
+    based on VSFS
+    • Built TCP listeners and an asynchronous web server in Rust, capable of handling HTML errors without
+    Approach
+    crashing
+    • Via the Linux System API, emulated a full-fledged filesystem, with custom-designed read, write and
+    create functions
+    • Using UDP channels, created a distributed fileserver with statelessness and multiple user management
+    in C
+    • The emulated filesystem is built for robustness, and efficiency, safe against overrides and shutdowns (by
+    the statelessness)
+    Result • The emulated filesystem is built for data handling over the network, preventing overwrites and shutdowns
+    Pok´emon Battle LLM Agent (poke-env / Pok´eLLMon) | § (May’24 - Jul’24)
+    Objective
+    • Built an LLM-powered Pok´emon battle agent using the poke-env framework to simulate turn-based gameplay and dynamic
+    decision-making
+    • Defined an LLM-powered Pok´emon battle agent using the poke-env framework to simulate turn-based gameplay. Built for
+    dynamic decision-making in a tactical gaming environment
+    Approach
+    • Leveraged poke-env templates to parse game states, craft LLM prompts, and interface with Pok´emon Showdown.
+    • Implemented in-context reinforcement learning (ICRL), dynamically refining policy each turn using textual battle feedback
+    • Added knowledge-augmented generation by fetching Pok´edex entries to reduce hallucinations about game mechanics.
+    • Employed consistent action voting—generating multiple responses per turn and selecting the most frequent choice to prevent
+    erratic behavior.
+    • Integrated observability metrics (prompt latency, failure rates) per Hugging Face agent evaluation guidance
+    Impact
+    • Achieved human-parity win rates ( 49% ladder, 56% invited matches), matching Pok´eLLMon benchmarks
+    • Significantly reduced invalid move hallucinations through Pok´edex augmentation, improving strategic accuracy.
+    • Delivered a modular poke-env–compatible agent primed for competitive evaluations and leaderboard deployment
+    • Achieved low prompt latency and consistent response times under Hugging Face Agent Evaluation metrics, supporting real-
+    time, turn-based gameplay.
+    • Improved evaluation scores on correctness and tool usage metrics, validating robust prompt design and reliable API integration
+    in competitive battle scenarios.
+    • Achieved average prompt latency of 1.2 seconds, supporting real-time, turn-based gameplay under Hugging Face Agent
+    Evaluation benchmarks.
+    • Improved evaluation scores with 94% correctness in tool usage and 97% successful action execution, validating robust
+    prompt design and reliable API integration in competitive battle scenarios.
+    MusSep | § (Dec’24 - Present)
+    • To address the Cocktail Party Problem specifically for music. The task is to isolate each individual instrument in a
+    music file, into distinct stems - Bass, Drums, Others, and Vocals, as well as secondary sources - Drum Parts, Harmonies
+    • We are planning to adopt a ensemble approach - combine existing models to achieve superior separation performance across
+    traditional Vocal, Drum, and Bass (VDB) stems, as well as expanding into second-level hierarchical separation.
+    • We are planning to use a Diffusion Transformer (DiT) with a Masking architecture, which is more efficient and scalable.
+    Popcorn and Pixels | MTH208 Course Project | Prof. Dootika Vats | IIT Kanpur | § (Oct’24 - Nov’24)
+    • Analysed 75 year’s movies and music data to isolate and identify patterns and trends and over-arching thematic changes
+    • Collected data via Web Scraping and API calls, visualized insights with ggplot2, and built a Shiny App
+    • Analysed 75 year’s movies and music data to isolate and identify patterns and trends in popular genres of each era.
+    • Extrapolated over-arching thematic changes in popular culture over the last century.
+    • Acquired data via Webscraping and API calls, used plotting libraries like ggplot2 and created a Shiny App based on the
+    conclusions from the dataset.
+    • To build a meta-cultural analysis tool to gauge and quantify historical cultural trends through music and movies
+    • used spiders to crawl over 10K Wikipedia websites to get musical metadata.
+    • Compiled 6+ datasets, used ggplot to plot graphs
+    • Gathered 75 years’ data from movie posters to gauge evolution in themes and genres, along with their popularity in pop culture,
+    and their box office revenue
+    • Compared data from music revenues to gauge shifts in musical tones over a period of 35 years
+
+  --- RELEVANT EXTRACTED KEYWORDS FOR THIS CANDIDATE'S PROJECTS ---
+    * Software Engineering (SDE): c++, c, python, java, javascript, sql, docker, algorithms, git, api, linux, bash, vite, html
+    * Quantitative Finance & Math: markov, stochastic, optimization
+    * Management Consulting & Analytics: revenue, optimization, decision-making, framework, operations
+    * Core Engineering & Hardware: ros
+    * Data Science, ML & AI: pytorch, tensorflow, numpy, pandas, matplotlib
+====================================================================================================
+
+[6] CANDIDATE: AKSHAT JAIN
+--------------------------------------------------------------------------------
+  • Roll Number: 230097
+  • Department: IIT Kanpur
+  • CPI / CGPA: 6.7
+  • Recommended Primary Track: General / SDE
+  • Resume Source File: Akshat_Jain_230097.pdf
+  • Detected Sections: Header, Education, Achievements, Experience, Projects, Skills, C, C++, L A Tex, Python, Html,, Positions of Responsibility, Coursework, Extracurricular
+
+  --- EXTRACTED PROJECTS & EXPERIENCE TEXT ---
+    Canon Cart: TA211 Course Project | Instructor: Prof. Kantesh Balani, IIT Kanpur (Aug’24 – Nov’24)
+    Objective • Built a functional cannon model, having a mechanically complex shooting mechanism and 3 degrees of freedom
+    Approach • Designed all components using Fusion360 and implemented casting, welding, and brazing techniques
+    Impact • Gained hands-on practical exposure to CAD modeling and real-world industrial manufacturing processes
+    Introduction to Electronics | Course Project, ESC 201 | Prof. Rik Dey ( Jan’25-Apr’25)
+    Objective • Developed foundational understanding of analog and digital circuits through simulation-based analysis
+    • Simulated and analyzed Schmitt Trigger, Clamper, Integrator, Differentiator, and Flip-flops
+    Approach
+    • Implemented Full Adder, Decoder, MUX, and Counters to study logic flow and dynamic response
+    • Gained circuit design intuition with improved grasp of signal behavior and logic control mechanisms
+    Impact
+    • Built a strong base for advanced electronics, digital systems, and hardware design applications
+    Time Series Analytics and Forecasting | Summer Project: Society of Civil Engineers, IIT Kanpur (Nov’24 – Dec’24)
+    Objective • Applied environmental modeling to multivariate pollutants to analyze temporal and threshold dynamics
+    • Applied ARIMA modeling on urban time-series pollutant data to detect pollutants concentration spikes
+    Approach • Constructed a daily Environmental Risk Index (ERI) by aggregating and normalizing pollutant levels
+    • Analyzed ERI to identify periods of elevated environmental risk and correlate them with observed surges
+    • Identified high-risk periods and pollutant spikes, enabling interpretation of air quality threats over time
+    Impact
+    • Demonstrated cost-effective, modular design scalable for autonomous rovers or uneven ground navigation robots
+    Ice Cream Topping Dispenser: TA212 Course Project | Prof. Arvind Kumar, IIT Kanpur | § (Jul’25–Aug’25)
+    Objective • Build a low-cost automated topping dispenser using time-based control logic to avoid expensive sensors
+    Approach • Designed Hardware and implemented Arduino Uno to code to dispense toppings with precise timing control
+    • Fine-tuned LLM to guide users about their flavour choices by reducing decision-making confusion
+    • Eliminated the need for costly laser sensors by leveraging time based motor actuation for ingredient flow
+    Impact • Achieved reliable dispensing performance while reducing system cost and simplifying hardware complexity
+    Stock Price Forecasting and Analysis | Self Project | § (May’24–Jul’24)
+    Objective • Built a machine learning model to forecast stock prices from historical data for better investment decisions
+    Approach • Applied feature engineering on financial data using moving averages, volatility, and lagged returns
+    • Trained models like Random Forest and LSTM, achieving up to 90% accuracy on selected stocks
+    • Visualized trends, forecasts, and evaluation metrics via interactive dashboards using Matplotlib and Plotly
+    • Enhanced forecast accuracy via optimized features and temporal modeling; delivered actionable insights for
+    Impact
+    strategic, risk-aware financial planning, robust portfolio management, and data-driven investment decisions
+    i
+    Financial Risk Analysis and Portfolio Optimization | Self Project | § (May’25–Jun’25)
+    Objective • Designed a risk analysis toolkit and explored portfolio optimization using quantitative finance models in Python
+    Approach • Analysed the CAPM (Capital Asset Pricing Model) and implemented a Python risk-kit for risk-assessment
+    • Used key metrics like historical/Gaussian VaR, CVaR, and Jarque-Bera test to assess portfolio risk
+    • Plotted Markowitz Frontier and Capital Market Line using Python on a portfolio of 10 NSE stocks
+    • Applied the CPPI and studied Monte-Carlo simulations to model drawdowns and risk scenarios
+    • Achieved informed portfolio structuring by predicting optimal risky & safe asset allocation, enhancing
+    Impact
+    strategic decision-making, actionable insights, forecasting accuracy, and risk mitigation in financial planning
+    CP Curation Platform | Self Project | § (May’25–Jun’25)
+    Objective • Built a competitive programming platform with a built-in judge and community features for user engagement
+    • Designed and implemented backend using Node.js with Cheerio for parsing competitive programming prob-
+    Approach
+    lems and test cases, enabling automated extraction, efficient handling, and seamless deployment
+    • Added user authentication, code editor, and test case validation to simulate real coding platforms
+    • Integrated a discussion forum, tags, and difficulty filters to enhance interaction and personalized learning
+    • Enabled efficient CP practice through curated questions and an interactive interface, strengthening daily
+    Impact
+    problem-solving skills, backend proficiency, and familiarity with full-stack web development workflows
+
+  --- RELATED EXPERIENCE / RESEARCH WORK ---
+    Digital Process Optimization Intern – DTC (Govt. of NCT Delhi) | Airawat Research Foundation ( Jun’25-Ongoing)
+    Objective • Identified inefficiencies across DTC depots to modernize workflows using AI/ML and automation
+    • Focused on route scheduling, payroll processing, GPS tracking, and grievance redressal digitalization
+    Approach • Designed a centralized portal to manage employee schedules, leave, attendance, and salary for 10+ depots
+    • Mapped existing paper trails in ticketing, cash office, control room to build comprehensive workflow data models
+    • Proposed a document tracking system to monitor approvals and reduce delays in department processing
+    • Identified bottlenecks, recommended tech-based solutions using QR scanning, cloud dashboards
+    Impact • Reduced operational delays by 30% in departments and laid groundwork for transformation across DTC
+    • Created structured penalty system and digital complaint workflow to improve policy compliance
+    • Proposed unified digital HR platform reducing manual work and enhancing transparency across depots
+
+  --- RELEVANT EXTRACTED KEYWORDS FOR THIS CANDIDATE'S PROJECTS ---
+    * Software Engineering (SDE): c, python, node, git, api
+    * Quantitative Finance & Math: optimization, time series
+    * Management Consulting & Analytics: optimization, decision-making, analytics
+    * Core Engineering & Hardware: ros, arduino, sensors, cad, fea, surge
+    * Data Science, ML & AI: machine learning, random forest, feature engineering, matplotlib
+====================================================================================================
+
+[7] CANDIDATE: AMISH VERMA
+--------------------------------------------------------------------------------
+  • Roll Number: 230121
+  • Department: IIT Kanpur
+  • CPI / CGPA: 7.8
+  • Recommended Primary Track: General / SDE
+  • Resume Source File: Amish_Verma_230121.pdf
+  • Detected Sections: Header, Education, Industry Experience, Projects, Programming Achievement, Skills, Coursework, Positions of Responsibility, Extracurricular
+
+  --- EXTRACTED PROJECTS & EXPERIENCE TEXT ---
+    Synthesis Paragraph Extractor and Classifier | Dept of Chemical Engineering | IIT Kanpur (cid:135) ( February’25 - March’25)
+    Mentor: Prof. Salman Ahmad Khan, Dept. of Chemical Engineering, IIT Kanpur
+    • To build a generalizable NLP-based system to automatically extract synthesis-related content from scientific
+    Objective
+    literature, leveraging intelligent text processing to improve researcher access to experimental procedures
+    • Built a topic-generalized HTML parser using Selenium, BS4, and Springer API to synthesis paragraphs
+    Approach • Manually labeled 4,000 paragraphs and applied oversampling on 1,000 more to balance them before training
+    • Compared various embeddings & models: SciBERT, BERT, TF-IDF, PCA, SVM, RF, Logistic Regression
+    Results • Achieved 0.96 F1, 0.94 Accuracy, and 0.9974 AUC-ROC, demonstrating strong robustness and generalizability
+    Doctor Appointment | Self Project (cid:135) ( Jan’25 - May’25)
+    Objective • To build a responsive web application that allows users to log in and book appointments with doctors based
+    on their required specialization
+    • Built a full-stack appointment system using MongoDB, Express, ReactJS, and NodeJS with user, admin, and
+    doctor modules
+    Approach
+    • Added login/signup features to access profile, view appointment history, and navigate doctor selection pages
+    • Enabled doctor search by specialization, viewing profiles, and easy booking or cancellation of appointments
+    • Designed admin panel to add doctor info like name, specialization, and degree using dynamic forms in React
+    • Built a responsive website enabling users to find doctors by specialization and manage bookings with ease
+    Result
+    • Streamlined doctor management with an admin panel for real-time updates via a user-friendly interface
+    Tweet Tracker | Public Policy and Opinion Cell | IIT Kanpur (cid:135) ( May’25 - July’25)
+    Objective • To analyze public sentiment on major Indian government policies by collecting and processing Twitter data
+    using Natural Language Processing (NLP) techniques.
+    • Collected tweet data using Tweepy API and snscrape for real-time and historical data extraction
+    Approach • Cleaned and preprocessed text using regular expressions (regex), NLTK, and Pandas to remove noise,
+    mentions, links, and hashtags
+    • Applied sentiment classification using VADER and TextBlob, mapping tweets to Positive, Neutral, or
+    Negative categories
+    • Built a functional sentiment dashboard and case study report revealing public response patterns.
+    Result
+    • Achieved accurate classification of tweets per topic with interpretable sentiment insights
+    Meet AI-Powered Personalized Meeting Assistant|Self Project (cid:135) ( February’25 - June’25)
+    • Developed a personalized AI assistant to streamline meetings and document workflows by enabling document
+    Objective
+    chat, late join recaps, transcript-based Q&A, and live/post-meeting summaries with action items
+    • Integrated RAG for grounded responses from user documents and meetings, and persistent memory for
+    personalized, multi-session interaction
+    • Designed a modular backend ( FastAPI, vector DB) supporting semantic search and memory recall
+    Approach • Integrated with Google Docs & Obsidian for real-time sync and document querying
+    • Implemented live meeting modules: Lice Caption Feeding, late-meeting recaps for late joiners, post meeting
+    dashboard summaries, and action item extraction
+    • Built multi-persona interaction system using persona-specific prompting and memory tagging for adaptive
+    response styles following various prompt engineering techniques
+    Results • Achieved 92% top-3 retrieval accuracy in QnA from Documents and Meeting Summaries and Action Items
+    • Enabled late join recaps, live/post-meeting summaries, and action item dashboards, reducing manual
+    follow-up effort
+    SummarEase – Intelligent Web Summarizer & Query Tool | Self Project (cid:135) ( Dec’24 - Feb’25)
+    • To enable users to quickly understand the core content of any webpage through automated summarization
+    Objective
+    • To enhance user interaction by allowing context-based question answering directly on the webpage
+    • Initially built the extension’s UI and interaction framework using HTML, CSS, and JavaScript
+    • Used BeautifulSoup to extract visible text content from web pages for further processing
+    Approach • Applied NLTK’s summarizer to generate concise summaries of the extracted content.
+    • Integrated a FastAPI backend to serve summarization and question-answering endpoints efficiently
+    • Implemented a Retrieval-Augmented Generation (RAG) pipeline using Pinecone for embeddings and
+    semantic search, with answer generation via Gemini 2.5 Flash
+    Results • Delivered a responsive browser extension that enables instant summarization and accurate query answering on
+    any webpage
+    Build Your Own Virtual Company | Course Project (CHE261) ( Mar’25 - Apr’25)
+    Instructor: Prof. Raghavendra Ragipani | Dept. of Chemical Engineering, IIT Kanpur
+    Objective • Streamlined chemical waste disposal by analyzing byproducts and complying with government regulations
+    • Analyzed government regulations, reports and databases to identify the least harmful chemical alternative
+    Approach • Proposed a Zero Liquid Discharge (ZLD) system to prevent harmful compound release by fully treating them
+    • Recycled unreacted reactants to improve efficiency and designed a process to store the water for irrigation
+    • Successfully finalized a Zero Liquid Discharge design in compliance with government environmental regulations
+    Result • Achieved overall 94% score, securing second position among all other competing companies
+    Innovation Project | Course Project (CHE213) ( Mar’25 - Apr’25)
+    Instructor: Prof. Himanshu Sharma | Dept. of Chemical Engineering, IIT Kanpur
+    • To study the diffusion behavior of pure and binary organic solvent systems using Stefan’s Tube method
+    Objective
+    • To understand how composition and intermolecular interactions affect the effective diffusion coefficient
+    • Used a T-tube apparatus to monitor the drop in liquid level over time due to diffusion into stagnant air
+    • Three system for experiment: 100% CCl, 50% CCl + 50% Toluene, and 50% CCl + 50% Hexane
+    Approach 4 4 4
+    • Calculated mass loss and diffusion rate from height measurements taken over fixed intervals
+    • Applied Fick’s law to determine effective binary diffusion coefficients for each case
+    • Pure CCl showed the highest diffusion coefficient, closely matching literature values
+    4
+    Results • The CCl –Hexane mixture showed a greater change in diffusion behavior due to higher volatility contrast
+    4
+    • The CCl –Toluene mixture exhibited less deviation, indicating weaker intermolecular effects on diffusion
+    4
+    Innovation Project | Course Project (CHE212) ( Mar’25 - Apr’25)
+    Instructor: Prof. Anurag Tripathi | Dept. of Chemical Engineering, IIT Kanpur
+    • To study the effect of fin length on heat transfer efficiency using stainless steel fins under identical heating
+    Objective
+    conditions
+    • To compare temperature profiles and heat dissipation between a long fin (15 cm) and a short fin (5 cm)
+    • Attached thermocouples at fixed intervals along both fins to measure temperature distribution with the same
+    Approach power input
+    • Collected and analyzed data using MATLAB to generate temperature profiles and compute heat loss
+    • Evaluated the impact of fin length and surface area on the rate of heat transfer
+    • The long fin (15 cm) dissipated more heat due to increased surface area and better conduction
+    Results • The short fin (5 cm) showed a steeper temperature drop near the base, indicating limited heat transfer range
+    • Confirmed that longer fins improve heat dissipation efficiency, consistent with Fourier’s law
+    Integrated Single-Train Ammonia Plant Process | Course Project (CHE251) ( Aug’24 - Nov’24)
+    Instructor: Prof. Harshwardhan H. Katkar | Dept. of Chemical Engineering, IIT Kanpur
+    • To study the energy and conversion efficiency of each stage in an integrated single-train ammonia plant
+    Objective
+    • To identify key factors that affect process performance and propose improvements using process simulation
+    • Modeled the entire ammonia synthesis process in Aspen Plus, including primary/secondary reforming, HT/LT
+    Approach CO shift, methanation, CO removal, and ammonia synthesis
+    2
+    • Incorporated sulphur removal and gas conditioning units; simulated recycle and purge loops to reflect
+    industrial operation
+    • Analyzed inefficiencies caused by incomplete conversion, heat loss, and catalyst degradation to evaluate areas
+    for optimization
+    • Simulation outputs matched expected industrial data, confirming model reliability
+    • Incomplete conversion and purge losses had the greatest impact on process efficiency
+    Results
+    • Side reactions and heat loss contributed to minor inefficiencies but were manageable with proper heat
+    integration
+    • Proposed use of Ru-based catalysts for higher conversion, along with heat exchanger network optimization to
+    recover waste heat and improve energy efficiency
+
+  --- RELEVANT EXTRACTED KEYWORDS FOR THIS CANDIDATE'S PROJECTS ---
+    * Software Engineering (SDE): c, python, java, javascript, react, node, sql, mongodb, oop, git, api, html, css
+    * Quantitative Finance & Math: optimization
+    * Management Consulting & Analytics: optimization, framework
+    * Core Engineering & Hardware: robotics, arduino, cad, fea, matlab, heat transfer
+    * Data Science, ML & AI: pytorch, tensorflow, scikit-learn, logistic regression, numpy, pandas, matplotlib
+====================================================================================================
+
+[8] CANDIDATE: ANUBHAB GOSWAMI
+--------------------------------------------------------------------------------
+  • Roll Number: 230168
+  • Department: IIT Kanpur
+  • CPI / CGPA: 8.8
+  • Recommended Primary Track: General / SDE
+  • Resume Source File: Anubhab_Goswami_230168.pdf
+  • Detected Sections: Header, Education, Achievements, Experience, Projects, Skills, Positions of Responsibility, Extracurricular Activities
+
+  --- EXTRACTED PROJECTS & EXPERIENCE TEXT ---
+    Fake News Detection using NLP and Machine Learning | PPOC IIT Kanpur | (cid:135) May’24 – July’24
+    Objective • Develop a high-accuracy machine learning model using ensemble learning to identify fake news headlines.
+    • Applied text preprocessing and feature engineering to convert raw data into machine-interpretable features.
+    • Developed and evaluated various machine learning models like Naive-Bayes, Logistic Regression, Ran-
+    Approach dom Forest, Decision Trees, Passive-Agressive Classifier to optimize classification accuracy and
+    efficiency.
+    • Evaluated the models using standard metrics like precision, F1-score, ROC-AUC to ensure model reliability.
+    Impact • Acheived best results using a Random Forest Classifier and feature engineering to get 99.8% F1 score
+    QUIPHER | Association for Computing Activities, IIT Kanpur | (cid:135) May’25–Ongoing
+    Objective • Implement encryption/decryption functions to enable secure communication between clients on a central server.
+    • Used number theoretic concepts like Miller-Rabin primality test to establish foundations for cryptography.
+    Approach • Analyzed traditional symmetric and asymmetric cryptography algorithms like AES,DES,Blowfish and RC4
+    • Studied and executed Shor’s algorithm on Qiskit to demonstrate vulnerabilities in the above algorithms.
+    Impact • Deployed a real-time central client-server messaging system using secure key management, socket programming
+    An Introduction to Numerical Analysis | Self Project | (cid:135) Jan’25 – Apr’25
+    Objective • Gained practical understanding of numerical techniques used in scientific computation and numerical analysis
+    • Implemented Gaussian Elimination, LU Decomposition, and Gauss-Jacobi, Gauss-Seidel methods
+    • Computed roots using Bisection, Regula Falsi, Newton-Raphson, Secant, and Fixed Point methods
+    Approach
+    • Used Hermite and Spline interpolation; computed Newton’s Divided Differences for curve fitting
+    • Approximated definite integrals using Trapezoidal and Simpson’s 1/3 Rule, and visualized using Gnuplot
+    Impact • Built strong foundation in numerical algorithms and modeling, supporting future research and simulations
+
+  --- RELATED EXPERIENCE / RESEARCH WORK ---
+    Sparse Matrix Algorithms & Krylov Solvers | SURGE 2025 | Prof. BVR Kumar | IIT Kanpur | (cid:135) May’25 – July’25
+    • Explore high performance algorithms for sparse matrix optimizations using graph based models.
+    Objective
+    • Implement Krylov Subspace Methods and Algebraic preconditioners to solve complex linear systems.
+    • Engineered RCM reordering a heuristic approach to reduce fill-ins during LU decompositions
+    Approach • Applied methods like Steepest Descent,Conjugate Gradient and GMRES for solving sparse linear systems
+    • Applied these techniques to solve discretized 1D,2D Heat Equation models using TDMA Algorithm
+    • Significantly reduced the time complexity of solving large scale sparse linear systems from O ( n 3) to O ( n ∗ nz)
+    Impact
+    • Validated algorithm effectiveness of techniques on Heat Equations to achieve a MSE of order 10 − 5
+
+  --- RELEVANT EXTRACTED KEYWORDS FOR THIS CANDIDATE'S PROJECTS ---
+    * Software Engineering (SDE): c++, c, python, socket programming, algorithms, client-server
+    * Quantitative Finance & Math: probability, linear algebra, krylov, optimization, numerical analysis, gaussian elimination, lu decomposition, cryptography, miller-rabin, qiskit, sparse matrix, heat equation, tdma
+    * Management Consulting & Analytics: optimization
+    * Core Engineering & Hardware: fea, matlab, surge
+    * Data Science, ML & AI: machine learning, random forest, logistic regression, feature engineering, f1-score, roc-auc, numpy, pandas, matplotlib
+====================================================================================================
+
+[9] CANDIDATE: ANUPAMA PRABHAKARAN
+--------------------------------------------------------------------------------
+  • Roll Number: 230171
+  • Department: IIT Kanpur
+  • CPI / CGPA: 6.5
+  • Recommended Primary Track: General / SDE
+  • Resume Source File: Anupama_Prabhakaran_230171.pdf
+  • Detected Sections: Header, Education, Achievements, Projects, Skills, Coursework, Extracurricular
+
+  --- EXTRACTED PROJECTS & EXPERIENCE TEXT ---
+    Drowsiness Detection | Brain & Cognitive Society | GitHub May’24 – Aug’24
+    PyTorch, Tensorflow, MNE, Matplotlib
+    Objective • To design a deep learning pipeline to detect drowsiness from EEG signals, focusing on model generalizability
+    • Processed a EEG dataset comprising 3000+ samples, each containing 30 channels and 284 datapoints
+    • Utilised signal processing techniques and Independent Component Analysis to preprocess EEG data
+    Approach
+    • Implemented an IEEE paper to create an interpretable CNN model for EEG-based classification
+    • Utilized leave-one-subject-out cross-validation to ensure model generalizability across subjects
+    Impact • Successfully acheived an accuracy of 77% which is higher than conventional baseline methods of 53.40%
+    Applied Machine Learning with Python | Google Developer Student Clubs | GitHub Dec’23 – Jan’24
+    Pandas, NumPy, Sci-kit Learn, Matplotlib
+    i
+    • To build end-to-end ML pipelines involving data preparation, feature design and model evaluation
+    Objective
+    • To develop analytics pipelines using KNNs and ensemble methods to enhance predictive performance
+    • Implemented regression, boosting models using Scikit-learn, Pandas and NumPy on real-world datasets
+    • Created clear visualizations with Matplotlib to enhance data interpretability and support decision-making
+    • Performed exploratory data analysis, handling missing values, outliers, and identifying meaningful patterns
+    • Created train/test splits and evaluated models using metrics such as Mean Absolute Error and accuracy
+    • Trained and compared multiple models including decision trees, logistic regression, and random forests
+    Approach • Tuned model hyperparameters to minimize overfitting and enhance model generalization on unseen data
+    • Visualized trends, feature relationships, and model performance using Matplotlib to inform decisions
+    • Engineered and selected optimal features through scaling, normalization, and textbftransformations
+    • Implemented KNNs to benchmark neighborhood-based predictions on regression/classification tasks
+    • Leveraged XGBoost to train and tune gradient-boosted trees, optimizing for accuracy and generalization
+    • Compared model performance using cross-validation and error metrics, refining hyperparameters accordingly
+    • Generated predictive insights using modular ML workflows, addressing real-world classification challenges
+    Impact
+    • Visualized complex patterns and model behavior, improving interpretability and model refinement
+
+  --- RELEVANT EXTRACTED KEYWORDS FOR THIS CANDIDATE'S PROJECTS ---
+    * Software Engineering (SDE): c++, c, python, java, javascript, react, sql, git, vite, supabase, html, css
+    * Quantitative Finance & Math: None detected
+    * Management Consulting & Analytics: decision-making, analytics, cross-validation
+    * Core Engineering & Hardware: ros, signal processing, eeg, independent component analysis, fea
+    * Data Science, ML & AI: machine learning, deep learning, cnn, pytorch, tensorflow, scikit-learn, xgboost, random forest, logistic regression, knn, cross-validation, numpy, pandas, matplotlib
+====================================================================================================
+
+[10] CANDIDATE: ANURAG PATEL
+--------------------------------------------------------------------------------
+  • Roll Number: 230173
+  • Department: IIT Kanpur
+  • CPI / CGPA: 7.9
+  • Recommended Primary Track: General / SDE
+  • Resume Source File: Anurag_Patel_230173.pdf
+  • Detected Sections: Header, Education, Achievements, Projects, Competitive Programming, Skills, Coursework, Positions of Responsibility, Extracurricular
+
+  --- EXTRACTED PROJECTS & EXPERIENCE TEXT ---
+    • Micromouse Challenge (cid:135) | Team VISION, IIT Kanpur May’24 - Oct’24
+    ◦ Contributed to the development of an autonomous Micromouse robot for a national-level robotics competition held
+    in Delhi
+    ◦ Led the software development, implementing the flood fill algorithm for optimal maze-solving and navigation
+    ◦ Integrated IR sensors with Arduino to process environmental data and enable real-time decision-making and obstacle
+    detection
+    • Breaking Code | Association of Computing Activities, IIT Kanpur May’24 - Jul’24
+    ◦ Demonstrated strong problem-solving skills by consistently securing a top 5 position out of 30+ participants in weekly
+    programming contests
+    ◦ Gained foundational knowledge in Object-Oriented Programming, including key principles such as Constructors,
+    Inheritance, Encapsulation, and Polymorphism
+    • Bayesian Analysis & Inference (cid:135) | Stamatics, IIT Kanpur May’24 - Jul’24
+    ◦ Studied random variables and its distribution, plotted different graphs on expected value and CDF using different python
+    libraries
+    ◦ Skilled in using PyMC for Bayesian inference in practical applications, such as uncertainty modeling and data-driven
+    decision-making
+    ◦ Experienced in effectively applying Bayes’ theorem to update posterior probabilities with priors and likelihoods for
+    robust inference
+    • Numerical Analysis and Scientific Computing (cid:135) | Course Project Jan’25 - Apr’25
+    ◦ Learned and implemented Gaussian Elimination, LU Decomposition, Gauss-Jacobi, and SOR algorithms
+    ◦ Found approximate roots using Bisection, Regula Falsi, Newton Raphson, Secant and Fixed Point methods
+    ◦ Learned and implemented Hermite and Spline interpolations and calculated Newton Divided difference for given
+    data
+    ◦ Implemented Trapezoidal and Simpson’s 1/3 methods to approximate integrals
+
+  --- RELEVANT EXTRACTED KEYWORDS FOR THIS CANDIDATE'S PROJECTS ---
+    * Software Engineering (SDE): c++, c, python, java, sql, object-oriented programming, algorithms, git, bash, flood fill
+    * Quantitative Finance & Math: bayesian, numerical analysis, gaussian elimination, lu decomposition, random variables
+    * Management Consulting & Analytics: decision-making
+    * Core Engineering & Hardware: robotics, ros, gazebo, arduino, sensors, ir sensors, micromouse
+    * Data Science, ML & AI: machine learning, preliz, arviz, pymc, numpy, pandas
+====================================================================================================
+
+====================================================================================================
+SECTION 2: COMPREHENSIVE CROSS-DOMAIN KEYWORD TAXONOMY & VALUATION MATRIX
+====================================================================================================
+Each keyword is assigned a calibrated weight/value from 0.1 to 1.0 based on:
+  1. Recruiter signal value & differentiation (High vs. Low commodity skill).
+  2. Technical rigor & depth required to master the concept.
+  3. Real-world alignment with IIT Kanpur placement rubrics (Day 1 / Day 2 hiring).
+
+DOMAIN 1: SOFTWARE ENGINEERING (SDE / SYSTEMS / DISTRIBUTED / CLOUD / FULL-STACK)
+---------------------------------------------------------------------------------
+
+  Tier 1: Core Systems, Algorithms & High-Performance (Weight: 0.95 - 1.00):
+    • C++ / Modern C++ (C++17/20)                   [Value: 1.00] -> Primary Day-1 high-performance language for systems/SDE interviews
+    • Data Structures & Algorithms (DSA)            [Value: 1.00] -> Foundational criteria for all technical screening rounds
+    • Distributed Systems & Microservices           [Value: 0.95] -> Demonstrates large-scale distributed architectures and consensus
+    • System Design (High & Low Level)              [Value: 0.95] -> Crucial differentiator for upper-tier engineering roles
+    • Low-Latency / Multithreading / Concurrency    [Value: 0.95] -> Key indicator of systems-level mastery
+    • Linux Systems & Kernel / Socket Programming   [Value: 0.90] -> Underpinning of networking and OS-level projects
+    • GSoC / Major Open Source Contribution         [Value: 1.00] -> Exceptional validation of production-grade code contribution
+
+  Tier 2: Backend Architecture, Databases & Infrastructure (Weight: 0.75 - 0.85):
+    • Golang / Rust                                 [Value: 0.85] -> Modern cloud-native and systems engineering languages
+    • Java / Spring Boot                            [Value: 0.85] -> Enterprise backend architecture standard
+    • PostgreSQL / Relational DBMS & Indexing       [Value: 0.80] -> Crucial query optimization and schema design signal
+    • Docker & Containerization                     [Value: 0.80] -> Standard modern development and deployment environment
+    • Kubernetes & Container Orchestration          [Value: 0.85] -> Production cloud scaling capability
+    • AWS / GCP / Cloud Infrastructure              [Value: 0.80] -> Deployment, serverless, and cloud architecture exposure
+    • REST APIs / gRPC / WebSockets                 [Value: 0.75] -> Standard communication protocols in modern backend services
+    • Redis / In-Memory Caching                     [Value: 0.75] -> Performance optimization and latency reduction
+    • CI/CD Pipelines & GitHub Actions              [Value: 0.75] -> Production DevOps discipline
+
+  Tier 3: Frontend Frameworks & Scripting (Weight: 0.50 - 0.70):
+    • React / Next.js / TypeScript                  [Value: 0.70] -> Modern UI/UX frontend development
+    • Node.js / Express                             [Value: 0.65] -> Full-stack JavaScript environment
+    • Python (for Backend / Flask / Django)         [Value: 0.65] -> Rapid backend API development
+    • SQL / NoSQL (MongoDB)                         [Value: 0.60] -> Basic data storage and document DBs
+    • Git / GitHub Version Control                  [Value: 0.60] -> Standard collaboration tool
+    • HTML5 / CSS3 / Tailwind / UI Frameworks       [Value: 0.45] -> Commodity presentation layer (downgraded)
+
+====================================================================================================
+DOMAIN 2: QUANTITATIVE FINANCE, ALGORITHMIC TRADING & MATHEMATICAL MODELING
+---------------------------------------------------------------------------
+
+  Tier 1: Core Mathematical, Statistical & Stochastic Mastery (Weight: 0.90 - 1.00):
+    • Stochastic Calculus & Itô's Lemma             [Value: 1.00] -> Essential foundation for continuous-time financial mathematics
+    • Probability Theory & Measure Theory           [Value: 1.00] -> Core bedrock of quantitative modeling and risk analysis
+    • Black-Scholes & Derivatives Pricing Models    [Value: 0.95] -> Industry standard for options and derivatives valuation
+    • Monte Carlo Simulation & Variance Reduction   [Value: 0.95] -> Key computational technique for high-dimensional pricing
+    • Time Series Analysis (ARIMA, GARCH, Volatility) [Value: 0.95] -> Crucial for market dynamics and statistical arbitrage
+    • Numerical Linear Algebra & Krylov Subspace Methods [Value: 0.90] -> Large-scale matrix computations and eigensolvers
+    • Convex Optimization & Quadratic Programming   [Value: 0.90] -> Portfolio optimization, Markowitz, and factor allocation
+
+  Tier 2: Quantitative Implementation & Low-Latency Execution (Weight: 0.75 - 0.85):
+    • C++ Low-Latency & Cache Optimization          [Value: 0.90] -> Industry standard for high-frequency trading (HFT) engines
+    • Backtesting Engine Architecture & Slippage Modeling [Value: 0.85] -> Validates realistic simulation of quantitative strategies
+    • Statistical Arbitrage & Pairs Trading         [Value: 0.85] -> Practical quantitative trading alpha strategy
+    • Risk Management (VaR, CVaR, Greeks)           [Value: 0.80] -> Portfolio risk hedging and downside protection
+    • Bayesian Inference & MCMC (PyMC, Stan)        [Value: 0.80] -> Probabilistic modeling of market uncertainty
+    • Order Book Dynamics & Market Microstructure   [Value: 0.85] -> Level-2/Level-3 market data processing
+
+  Tier 3: Analytics Tooling & Auxiliary Data (Weight: 0.50 - 0.70):
+    • Python (NumPy, SciPy, Pandas)                 [Value: 0.70] -> Standard rapid quantitative prototyping stack
+    • R Programming / Quantmod                      [Value: 0.65] -> Statistical modeling and econometrics
+    • Kaggle Competitions / Financial Datasets      [Value: 0.60] -> Applied data modeling benchmark
+    • Excel / VBA Financial Modeling                [Value: 0.45] -> Legacy financial modeling (downgraded for quant research)
+
+====================================================================================================
+DOMAIN 3: MANAGEMENT CONSULTING, BUSINESS ANALYTICS & PRODUCT STRATEGY
+----------------------------------------------------------------------
+
+  Tier 1: Strategic Problem Solving & Business Transformation (Weight: 0.90 - 1.00):
+    • Market Entry & Growth Strategy Frameworks     [Value: 1.00] -> Core case interview and consulting project capability
+    • Revenue Optimization & Pricing Strategy       [Value: 0.95] -> High-impact commercial transformation signal
+    • Cost Optimization & Operational Turnaround    [Value: 0.95] -> Bottom-line EBITDA enhancement modeling
+    • Mergers & Acquisitions (M&A) Due Diligence    [Value: 0.90] -> Strategic valuation and synergy assessment
+    • Supply Chain Optimization & Unit Economics    [Value: 0.90] -> Operational scalability and logistics diagnostics
+
+  Tier 2: Business Analytics, Financial Metrics & Leadership (Weight: 0.75 - 0.85):
+    • Quantifiable Impact (KPIs, %, $ Revenue, ROI) [Value: 0.90] -> Mandatory metric orientation for all bullet points
+    • Market Sizing & GTM (Go-to-Market) Strategy   [Value: 0.85] -> Structured estimation and commercialization planning
+    • Competitor Benchmarking & Industry Landscaping [Value: 0.80] -> Strategic qualitative and quantitative analysis
+    • Customer Segmentation & Cohort Analysis       [Value: 0.80] -> Data-driven customer lifetime value (LTV/CAC) analysis
+    • Stakeholder Management & C-Suite Presentations [Value: 0.80] -> Executive communication and consensus building
+
+  Tier 3: Productivity & BI Tooling (Weight: 0.50 - 0.70):
+    • Tableau / PowerBI Dashboards                  [Value: 0.70] -> Enterprise business intelligence visualization
+    • Advanced Excel (Financial Modeling, Pivots, Solver) [Value: 0.65] -> Standard day-to-day consulting workhorse
+    • PowerPoint Storylining & MECE Synthesis       [Value: 0.65] -> Executive presentation framing
+    • SQL for Business Analytics                    [Value: 0.65] -> Direct database extraction for business reporting
+
+====================================================================================================
+DOMAIN 4: CORE ENGINEERING (MECHANICAL, ELECTRICAL, AEROSPACE, VLSI, ROBOTICS)
+------------------------------------------------------------------------------
+
+  Tier 1: Research, Hardware Design & Rigorous Simulation (Weight: 0.90 - 1.00):
+    • SURGE Research Fellowship / Sponsored Lab Work [Value: 1.00] -> Premier IITK undergraduate research fellowship
+    • Peer-Reviewed Publication / Conference Paper / Patent [Value: 1.00] -> Highest academic validation of original engineering contribution
+    • VLSI Design / Verilog / FPGA / RTL Synthesis  [Value: 0.95] -> High-demand semiconductor engineering skill
+    • Finite Element Analysis (FEA) / ANSYS Structural [Value: 0.90] -> Advanced structural mechanics and stress analysis
+    • Computational Fluid Dynamics (CFD) / OpenFOAM [Value: 0.90] -> Thermal, aerodynamic, and fluid simulations
+    • Robotics & Autonomous Systems (ROS, Gazebo, SLAM) [Value: 0.90] -> Hardware-software robotic perception and control
+
+  Tier 2: Embedded Systems, Signal Processing & Control (Weight: 0.75 - 0.85):
+    • Control Systems & State-Space PID / LQR       [Value: 0.85] -> Dynamic system stabilization and feedback control
+    • Embedded C / Microcontrollers (STM32, ESP32, Arduino) [Value: 0.80] -> Firmware development and real-time hardware interfacing
+    • Digital Signal Processing (DSP) & Filter Design [Value: 0.85] -> Fourier/Wavelet transforms and sensor signal filtering
+    • CAD 3D Modeling (SolidWorks, CATIA, AutoCAD)  [Value: 0.75] -> Precision mechanical assembly design
+    • MATLAB / Simulink Dynamic Modeling            [Value: 0.80] -> Engineering mathematical simulation standard
+
+  Tier 3: Manufacturing, Prototyping & Auxiliary (Weight: 0.50 - 0.70):
+    • PCB Design & Fabrication (KiCad, Altium)      [Value: 0.70] -> Custom hardware board layout
+    • Rapid Prototyping (3D Printing, CNC Machining) [Value: 0.60] -> Physical prototype fabrication
+    • LabVIEW / Sensor Interfacing (I2C, SPI, UART) [Value: 0.65] -> Hardware test benches and instrumentation
+    • Thermodynamics & Heat Transfer Calculations   [Value: 0.65] -> Core mechanical energy balance computations
+
+====================================================================================================
+DOMAIN 5: DATA SCIENCE, MACHINE LEARNING & ARTIFICIAL INTELLIGENCE
+------------------------------------------------------------------
+
+  Tier 1: Deep Learning Architectures, Transformers & SOTA Models (Weight: 0.90 - 1.00):
+    • PyTorch / Deep Learning Pipelines             [Value: 1.00] -> Industry standard for cutting-edge AI/ML research and deployment
+    • Transformers / LLMs / NLP / Attention Mechanisms [Value: 0.95] -> Modern state-of-the-art generative AI and NLP standard
+    • Computer Vision (CNNs, Object Detection, YOLO, OpenCV) [Value: 0.90] -> Visual perception and multimodal models
+    • Reinforcement Learning (Q-Learning, Policy Gradients) [Value: 0.90] -> Autonomous agent decision-making algorithms
+    • MLOps & Model Deployment (ONNX, TensorRT, FastAPI) [Value: 0.85] -> Productionizing models with low-latency inference
+
+  Tier 2: Classic Machine Learning & Statistical Modeling (Weight: 0.75 - 0.85):
+    • Scikit-Learn / Gradient Boosting (XGBoost, LightGBM) [Value: 0.85] -> Top-performing tabular data models
+    • Feature Engineering & Dimensionality Reduction (PCA, t-SNE) [Value: 0.80] -> Critical data transformation and signal extraction
+    • Model Interpretability (SHAP, LIME, Grad-CAM) [Value: 0.80] -> Explainable AI for enterprise deployment
+    • Cross-Validation & Rigorous Metric Evaluation (F1, ROC-AUC) [Value: 0.75] -> Essential for preventing leakage and overfitting
+
+  Tier 3: Exploratory Analysis & Standard Libraries (Weight: 0.50 - 0.70):
+    • Pandas & NumPy Vectorized Operations          [Value: 0.70] -> Data manipulation workhorses
+    • Matplotlib / Seaborn Visualizations           [Value: 0.55] -> Data plotting and exploration (downgraded as baseline)
+    • Jupyter Notebooks / Google Colab              [Value: 0.50] -> Standard experimentation environment
+
+====================================================================================================
+
+====================================================================================================
+SECTION 3: STRATEGIC SCORING SYSTEM ADJUSTMENTS (INCREASES & DECREASES)
+====================================================================================================
+
+BASED ON THE EMPIRICAL RESUME ANALYSIS, THE FOLLOWING SCORING ADJUSTMENTS ARE IMPLEMENTED:
+
+1. DECREASED VALUES (DOWNWEIGHTED / COMMODITY SKILLS):
+   --------------------------------------------------
+   • Basic HTML/CSS/Bootstrap: Decreased from 0.60 to 0.40 in SDE.
+     Rationale: Web markup is commoditized and often copied from tutorials; gives no signal of algorithmic capability.
+   • Generic Python Scripting (without frameworks/systems context): Decreased from 1.0 to 0.75 in general SDE.
+     Rationale: Python alone without backend (Django/FastAPI) or systems/data structures indicates introductory syntax only.
+   • Generic Coursework Listing without Project Proof: Weight decreased in SDE from 12 to 10 points.
+     Rationale: Merely listing CS courses on an IITK resume is trivial; actual projects and GitHub repos provide 3x higher signal.
+   • Matplotlib / Seaborn / Basic Plotting: Decreased from 0.70 to 0.50 in ML/Data Science.
+     Rationale: Basic 2D plotting is trivial boilerplate; weight shifted to model evaluation, F1/ROC-AUC, and deployment.
+   • High school / Minor non-technical PoRs (School Head Boy, Club Volunteer): Downweighted in all technical tracks.
+     Rationale: Has zero correlation with Day-1 placement success in SDE/Quant.
+
+2. INCREASED VALUES (UPWEIGHTED / HIGH-DIFFERENTIATION SKILLS):
+   ---------------------------------------------------------
+   • C++ / Modern C++ (C++17/C++20) & DSA: Increased from 0.90 to 1.00 in SDE and Quant Finance.
+     Rationale: C++ remains the absolute gold standard for Day-1 high-frequency quant and core backend systems.
+   • Distributed Systems / Docker / Kubernetes / Microservices: Increased from 0.60 to 0.85-0.95 in SDE.
+     Rationale: Industry recruiters heavily reward candidates with real deployment and containerization experience.
+   • Numerical Analysis / Krylov Solvers / Sparse Matrices: Added with 0.90 weight in Quant & Core.
+     Rationale: As observed in top IITK candidate resumes (e.g. SURGE research on Krylov solvers), advanced numerical
+     computing is a premier indicator of mathematical and computational depth.
+   • Quantifiable Business & Engineering Impact (%, $, latency ms, user counts): Sub-score weight increased across tracks.
+     Rationale: Differentiates actionable engineers from candidates who merely describe passive tasks.
+   • SURGE Fellowships / Verifiable Research Publications: Increased from 0.80 to 1.00 in Core Engineering.
+     Rationale: Highest differentiation signal for research and core hardware engineering.
+   • PyTorch / Transformers / Model Deployment: Increased from 0.70 to 0.95-1.00 in AI/ML.
+     Rationale: Modern ML recruiters require deep learning frameworks and production deployment (FastAPI/ONNX), not toy models.
+
+====================================================================================================
+                                      ====================================================================================================
+SECTION 4: ELECTED LEADERSHIP & MENTORSHIP WEIGHTAGE CALIBRATION
+====================================================================================================
+
+1. DEMOCRATICALLY ELECTED POSITIONS (SIGNIFICANT WEIGHTAGE BOOST):
+   --------------------------------------------------------------
+   • Selection Mode Filter: Roles in the IITK PoR Catalogue with Selection Mode = 'Elected'
+     (e.g., Senator, Chairperson Students' Senate, President Students' Gymkhana, General Secretary,
+     Standing Council Convener, Hall President, HEC Secretaries).
+   • Score Impact:
+     - 1.30x Multiplier + 10 points bonus on the PoR / Leadership sub-score.
+     - Automatically awarded top-tier priority in Candidate Profile Strengths.
+   • Rationale: An elected position represents a direct democratic mandate, accountability to hundreds
+     or thousands of students (General Body / batch), campaigning rigor, and verified peer consensus.
+
+2. MENTORSHIP & GUIDANCE CONTRIBUTIONS (SIGNIFICANT WEIGHTAGE BOOST):
+   -----------------------------------------------------------------
+   • Mentorship Roles: Academic Departmental Mentor, Career Departmental Mentor, Counselling Service
+     Student Guide, Academic Mentor, Peer Mentor, Project / Hackathon Mentor, Teaching Assistant.
+   • Narrative Action Signals: Bullets starting with / containing 'Mentored', 'Guided', 'Tutored',
+     'Advised', 'Coached', 'Onboarded and mentored'.
+   • Action Verb Classification: 'Mentored', 'Guided', 'Tutored', 'Advised', 'Coached' promoted to
+     STRONG_VERBS (1.00 full credit).
+   • Score Impact:
+     - 1.20x Multiplier + 8 points bonus on PoR / Leadership score.
+     - Automatic baseline leadership floor (45-55 pts) even without a formal Gymkhana catalogue entry.
+     - Highlighted in Strengths as 'Mentorship & Guidance Excellence'.
+   • Rationale: Mentoring junior students reflects proactive empathy, technical mastery, communication
+     skills, and community contribution—highly valued by recruiters across all placement tracks.
+
+====================================================================================================
+                                      END OF ANALYSIS REPORT                                        
+====================================================================================================

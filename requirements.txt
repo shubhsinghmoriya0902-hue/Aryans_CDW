@@ -1,0 +1,10 @@
+streamlit>=1.32
+pdfplumber>=0.11
+pandas>=2.0
+openpyxl>=3.1
+
+# Optional — only needed for HYBRID feedback mode (rules still compute the
+# score; the LLM only rewrites feedback text). The engine runs fully offline
+# without this installed. To enable: pip install anthropic, set
+# ANTHROPIC_API_KEY, and toggle hybrid mode on in the app.
+# anthropic>=0.40
